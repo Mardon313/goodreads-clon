@@ -1,0 +1,11 @@
+.profile-pic {
+            width: 150px;       /* Kenglik 150 piksel */
+            height: 150px;      /* Balandlik 150 piksel */
+            object-fit: cover;  /* Rasm buzilmasdan, berilgan o'lchamga moslanadi */
+            border-radius: 50%; /* Agar dumaloq rasm istasangiz */
+}
+
+.cover-pic{
+    width: 220px ;
+    height: 300px ;
+}
