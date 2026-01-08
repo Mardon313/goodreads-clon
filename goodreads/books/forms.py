@@ -4,7 +4,7 @@ from books.models import BookReview
 
 
 class BookReviewForm(forms.ModelForm):
-    stars_given = forms.IntegerField(min_value=1,max_value=5)
+    stars_given = forms.IntegerField(min_value=1,max_value=5, widget=forms.HiddenInput())
 
     class Meta:
         model = BookReview
